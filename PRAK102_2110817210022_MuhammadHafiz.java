@@ -32,7 +32,7 @@ public class PRAK102_2110817210022_MuhammadHafiz {
                 System.out.print(", " + bilangan);
             }
             
-            angkainputan = angkainputan - 1;
+            angkainputan = angkainputan + 1;
             i = i - 1;
     
         }
