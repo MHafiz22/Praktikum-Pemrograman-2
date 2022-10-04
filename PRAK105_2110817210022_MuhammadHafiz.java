@@ -8,6 +8,7 @@ import java.text.DecimalFormat;
  * @author USER
  */
 public class PRAK105_2110817210022_MuhammadHafiz {
+    public static final double PHI = 3.14;
 
     /**
      * @param args the command line arguments
@@ -23,7 +24,7 @@ public class PRAK105_2110817210022_MuhammadHafiz {
         System.out.print("Masukan tinggi    : ");
         tinggi = keyboard.nextFloat();
         
-        volume = 3.14 * jarijari * jarijari * tinggi;
+        volume = PHI * jarijari * jarijari * tinggi;
         DecimalFormat df = new DecimalFormat("#.###");
         
         System.out.println("Volume tabung dengan jari-jari " + jarijari + " cm dan tinggi " + tinggi + " cm adalah " + df.format(volume) + " m3");
